@@ -1,6 +1,6 @@
 {
   "name": "nchat-dev-common",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Common dev dependency for NativeChat NodeJS projects",
   "main": "index.js",
   "typings": "./declarations/nchat-dev-common.d.ts",
