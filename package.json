@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Icenium/nchat-dev-common/issues"
   },
-  "homepage": "https://github.com/Icenium/nchat-dev-common#readme"
+  "homepage": "https://github.com/Icenium/nchat-dev-common#readme",
+  "devDependencies": {
+    "tslint": "6.1.3"
+  }
 }
