@@ -1,6 +1,6 @@
 {
   "name": "nchat-dev-common",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Common dev dependency for NativeChat NodeJS projects",
   "main": "index.js",
   "typings": "./declarations/nchat-dev-common.d.ts",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Icenium/nchat-dev-common/issues"
   },
-  "homepage": "https://github.com/Icenium/nchat-dev-common#readme"
+  "homepage": "https://github.com/Icenium/nchat-dev-common#readme",
+  "devDependencies": {
+    "tslint": "6.1.3"
+  }
 }

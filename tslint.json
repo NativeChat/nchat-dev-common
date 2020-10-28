@@ -4,6 +4,7 @@
     "rules": {
         "arrow-parens": true,
         "arrow-return-shorthand": true,
+        "await-promise": true,
         "callable-types": true,
         "class-name": true,
         "comment-format": [
@@ -27,12 +28,13 @@
         "label-position": true,
         "linebreak-style": [
             true,
-            "unix"
+            "LF"
         ],
         "max-line-length": false,
         "member-access": false,
         "newline-before-return": true,
         "no-arg": true,
+        "no-async-without-await": true,
         "no-bitwise": true,
         "no-consecutive-blank-lines": true,
         "no-console": true,
@@ -62,6 +64,7 @@
         "only-arrow-functions": true,
         "ordered-imports": false,
         "prefer-const": true,
+        "promise-function-async": true,
         "quotemark": [
             true,
             "double"
