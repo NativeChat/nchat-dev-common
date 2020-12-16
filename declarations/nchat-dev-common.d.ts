@@ -4,8 +4,6 @@ export interface ILogger {
     error(...args: any[]): void;
     debug(...args: any[]): void;
     warn(...args: any[]): void;
-
-    filterFunction: (data: any) => any;
 }
 
 export interface IStringFormatter {
