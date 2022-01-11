@@ -12,6 +12,10 @@
             "check-space"
         ],
         "curly": true,
+        "cyclomatic-complexity": [
+            true,
+            20
+        ],
         "eofline": true,
         "forin": true,
         "import-spacing": true,
