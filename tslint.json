@@ -14,7 +14,7 @@
         "curly": true,
         "cyclomatic-complexity": [
             true,
-            20
+            10
         ],
         "eofline": true,
         "forin": true,
