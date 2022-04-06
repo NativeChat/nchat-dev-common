@@ -7,5 +7,5 @@ Share common logic used by other NativeChat modules to avoid duplication and red
 
 # Contents
 
-* TSLint rules
+* ESLint rules
 

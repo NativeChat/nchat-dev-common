@@ -117,5 +117,6 @@ dist
 reports
 *.js
 *.js.map
+!*.eslintrc.js
 
 swagger.json
