@@ -205,9 +205,16 @@ module.exports = {
         "@typescript-eslint/prefer-function-type": "error",
         "@typescript-eslint/prefer-namespace-keyword": "error",
         "@typescript-eslint/promise-function-async": "off",
+
+        // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/quotes.md#how-to-use
+        "quotes": "off",
         "@typescript-eslint/quotes": [
             "error",
-            "double"
+            "double",
+            {
+                "avoidEscape": true,
+                "allowTemplateLiterals": true
+            }
         ],
 
         // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/require-await.md#how-to-use
@@ -238,7 +245,10 @@ module.exports = {
         ],
         "brace-style": [
             "error",
-            "1tbs"
+            "1tbs",
+            {
+                "allowSingleLine": true
+            }
         ],
         "comma-dangle": [
             "error",
@@ -313,7 +323,7 @@ module.exports = {
         ],
         "prefer-arrow/prefer-arrow-functions": "error",
         "prefer-const": "error",
-        "quotes": "error",
+
         "radix": "error",
         "semi": "error",
         "space-before-function-paren": "off",
