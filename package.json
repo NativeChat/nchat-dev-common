@@ -1,6 +1,6 @@
 {
   "name": "nchat-dev-common",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Common dev dependency for NativeChat NodeJS projects",
   "main": "index.js",
   "typings": "./declarations/nchat-dev-common.d.ts",
@@ -17,7 +17,13 @@
     "url": "https://github.com/Icenium/nchat-dev-common/issues"
   },
   "homepage": "https://github.com/Icenium/nchat-dev-common#readme",
-  "devDependencies": {
-    "tslint": "6.1.3"
+  "devDependencies": {},
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "5.16.0",
+    "@typescript-eslint/parser": "5.16.0",
+    "eslint": "8.12.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-prefer-arrow": "1.2.3"
   }
 }
