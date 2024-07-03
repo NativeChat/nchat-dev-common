@@ -1,11 +1,12 @@
 {
   "name": "nchat-dev-common",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Common dev dependency for NativeChat NodeJS projects",
   "main": "index.js",
   "typings": "./declarations/nchat-dev-common.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "security-pack": "tar zcvf nchat-dev-common.tgz --exclude='./node_modules' --exclude='.git' --exclude='coverage' --exclude='reports' --exclude='.vscode' --exclude='*.tgz' *"
   },
   "repository": {
     "type": "git",
