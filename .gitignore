@@ -115,8 +115,7 @@ dist
 .pnp.*
 
 reports
-*.js
+.js
 *.js.map
-!*.eslintrc.js
 
 swagger.json
