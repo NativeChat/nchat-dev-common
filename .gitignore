@@ -118,5 +118,6 @@ reports
 *.js
 *.js.map
 !*.eslintrc.js
+!index.js
 
 swagger.json
