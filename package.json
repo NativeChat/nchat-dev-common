@@ -6,6 +6,7 @@
   "typings": "./declarations/nchat-dev-common.d.ts",
   "scripts": {
     "lint": "",
+    "build": "",
     "test": "echo \"Info: no test specified\" && exit 0",
     "security-pack": "tar zcvf nchat-dev-common.tgz --exclude='./node_modules' --exclude='.git' --exclude='coverage' --exclude='reports' --exclude='.vscode' --exclude='*.tgz' *"
   },
